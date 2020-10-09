@@ -1,0 +1,123 @@
+<!-- Aveces no abre correctamente  en el navegador crome , deberías  de específicarle la ruta en la barra Url del
+navegador o Abrilo con otro navegador
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">    
+<link rel="shortcut icon" href="img/iconos/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mi peso en otro planeta</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrap">
+            <div class="logo">
+                <figure>
+                    <img src="img/iconos/nicaragua.svg" alt="Bandera de Nicaragua" class="logo-svg">
+                </figure>
+            </div>
+            <div class="wrap-nav">
+                <nav class="nav">
+                    <ul class="nav-ul">
+                        <li class="nav-li"><a href="#" class="nav-a">Inicio</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="wrap">
+            <div class="wrap-hero-text">
+                <h1 class="banner-text">Descubre tu peso en otro planeta</h1>
+            </div>
+            <div class="wrap-hero-img">
+                <figure>
+                    <img src="img/iconos/astronaut.svg" alt="Icono de un astronauta" class="banner-svg">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="planets">
+        <article class="planet">
+            <div>
+                <h2 class="title">Elige el número del planeta</h2>
+                <div class="wrap-planets">
+                    <div>
+                        <div class="planet-wrap-img">
+                            <p>1. Mercurio</p>
+                            <img src="img/iconos/mercury.svg" alt="Planeta Mercurio" class="planet-svg">
+                        </div>
+                        <div class="planet-wrap-img">
+                            <p>2. Venus</p>
+                            <img src="img/iconos/venus.svg" alt="Planeta Venus" class="planet-svg">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="planet-wrap-img">
+                            <p>3. Marte</p>
+                            <img src="img/iconos/mars.svg" alt="Planeta Marte" class="planet-svg">
+                        </div>
+                        <div class="planet-wrap-img">
+                            <p>4. Júpiter</p>
+                            <img src="img/iconos/jupiter.svg" alt="Planeta de Jupiter" class="planet-svg">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="planet-wrap-img">
+                            <p>5. Saturno</p>
+                            <img src="img/iconos/saturn.svg" alt="Planeta Saturno" class="planet-svg">
+                        </div>
+                        <div class="planet-wrap-img">
+                            <p>6. Urano</p>
+                            <img src="img/iconos/uranus.svg" alt="Planeta Urano" class="planet-svg">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="planet-wrap-img">
+                            <p>7. Neptuno</p>
+                            <img src="img/iconos/neptune.svg" alt="Planeta Neptuno" class="planet-svg">
+                        </div>
+                        <div class="planet-wrap-img">
+                            <p>8. Plutónn</p>
+                            <img src="img/iconos/planet-earth.svg" alt="Planeta Pluton" class="planet-svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sdk">
+                <div class="form">
+                    <form action="#" id="form">
+                        <div class="wrap-form">
+                            <div class="text-box">
+                                <input class="input-form" type="number" id="PU" placeholder="Ingresa tu peso">
+                            </div>
+                            <div class="text-box">
+                                <input class="input-form"  type="text" id="PS" placeholder="Ingresa el planeta">
+                            </div>
+                        </div>
+                        <div>
+                            <p class="output" id="output"></p>
+                            <button class="btn-form" id="submit" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="teles">
+                    <img src="img/iconos/telescope.svg" alt="Telescopio" class="planet-img-section">
+                </div>
+            </div>
+        </article>
+    </section>
+    
+   
+
+</body>
+<script src="js/main.js"></script>
+</html>
